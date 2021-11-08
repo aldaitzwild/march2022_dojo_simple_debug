@@ -66,6 +66,7 @@ It will give access to a new menu on your IDE where you'll find the different to
     AbstractController : abstract class > class abstract
     ajout d'un body color:white dans le fichier style.css
     exit en haut du fichier index.php;
+    routes.php => inversion argument controller/method pour la route items
     ItemController, méthode index(),
         retour de la méthode typé en array
         return retiré
