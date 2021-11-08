@@ -59,7 +59,30 @@ It will give access to a new menu on your IDE where you'll find the different to
 
 ![menu](https://raw.githubusercontent.com/WildCodeSchool/simple-mvc/codetour/.tours/code_tour_menu.png)
 
+## Debug Objectif: afficher la page listant les items actuellement en base
 
+    composer.json : scr au lieu de src dans l'autoload
+    Dossier Controller renommé en Controler
+    AbstractController : abstract class > class abstract
+    ajout d'un body color:white dans le fichier style.css
+    exit en haut du fichier index.php;
+    ItemController, méthode index(),
+        retour de la méthode typé en array
+        return retiré
+        namespace App\\Controller au lieu de App\Controller
+        $itemManager->selectAll() modif en $this->selectALL() (noter le ALL en majucule)
+        appel de index.html au lieu de index.html.twig
+        dans le passage de param à la vue, 'items'=>$items modif en '$items'=>$items
+    ItemManager :
+        extend au lieu d'extends
+        point virgule manquant au bout de la constante TABLE
+    AbstractManager:
+        ajout d'un 3eme antislash au __construct > ___construct
+    Item/index.html.twig :
+        inversion value/array dans le for
+        item.title > item.tilte
+        h1 en dehors du bloc content
+        {{extends ... }} au lieu de {% extends ... %}
 
 ## Run it on docker
 
