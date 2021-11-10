@@ -64,14 +64,14 @@ It will give access to a new menu on your IDE where you'll find the different to
     composer.json : scr au lieu de src dans l'autoload
     Dossier Controller renommé en Controler
     AbstractController : abstract class > class abstract
-    ajout d'un body color:white dans le fichier style.css
+    ajout d'un * {color:white} dans le fichier style.css
     exit en haut du fichier index.php;
     routes.php => inversion argument controller/method pour la route items
     ItemController, méthode index(),
         retour de la méthode typé en array
         return retiré
         namespace App\\Controller au lieu de App\Controller
-        $itemManager->selectAll() modif en $this->selectALL() (noter le ALL en majucule)
+        $itemManager->selectAll() modif en $this->selectAII() (i majucule au lieu des L)
         appel de index.html au lieu de index.html.twig
         dans le passage de param à la vue, 'items'=>$items modif en '$items'=>$items
     ItemManager :
