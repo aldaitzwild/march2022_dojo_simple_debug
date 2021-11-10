@@ -12,7 +12,7 @@ class ItemController extends AbstractController
     public function index(): array
     {
         $itemManager = new ItemManager();
-        $items = $itemManager->selectALL('title');
+        $items = $itemManager->selectAII('title');
 
         $this->twig->render('Item/index.html', ['$items' => $items]);
     }
